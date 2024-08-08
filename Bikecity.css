@@ -1,0 +1,139 @@
+.bike
+{
+	text-align:center;
+	font-family:"serif",timesnewroman;
+	color:#030637;
+}
+.menus
+{
+	margin-bottom:0px !important;
+}
+.bikecity
+{
+	color:#e63946;
+}
+.reason
+{
+	text-align:center;
+	text-shadow:0px 0px 10px grey;
+}
+.reasondiv
+{
+	text-align:center;
+}
+.reasonimg
+{
+	width:200px;
+	height:200px;
+}
+.menus
+{
+	margin-bottom:-20px !important;
+}
+.warranty
+{
+	color:red;
+	text-align:center;
+}
+.process
+{
+	border:hidden 2px red;
+	border-radius:20px;
+	box-shadow:2px 2px 20px grey;
+}
+.buyingmodel
+{
+	text-align:center;
+	word-spacing:2px;
+	font-size:50px;
+}
+.bikeprocessheading
+{
+	text-align:center;
+	Color:#C0392B;
+}
+.bikeprocesscontent
+{
+	text-align:center;
+}
+.bikemodel
+{
+	border-radius:20PX;
+	box-shadow:0px 0px 5px grey;
+}
+.footer
+{
+	background-color:#010327;
+	text-align:center;
+	color:white;
+}
+.footers
+{
+	text-align:center;
+	background-color:#010327;
+	color:white;
+}
+.loginbody
+{
+		background-image: linear-gradient( 180.3deg,  rgba(214,224,255,1) 37.2%, rgba(254,168,168,1) 137.3% );
+}
+.logincontent
+{
+	border:hidden 2px grey;
+	border-radius:10px;
+	box-shadow:0px 0px 5px grey;
+	text-align:center;
+}
+.logininput
+{
+	border-radius:10px;
+	width:100%;
+	height:40px;
+}
+.loginbutton
+{
+	width:100%;
+	height:35px;
+}
+.signupborder
+{
+	border:hidden 2px grey;
+	border-radius:10px;
+	box-shadow:0px 0px 5px grey;
+	text-align:center;
+}
+.signupinput
+{
+	border-radius:10px;
+	width:100%;
+	height:40px;
+}
+.signupbutton
+{
+	width:100%;
+	height:40px;
+	
+}
+.help
+{
+	background-color:black;
+
+}
+.helpborder
+{
+	border-radius:20px;
+	box-shadow:0px 0px 5px grey
+}
+.aboutpara
+{
+	line-height:30px;
+	font-size:18px;
+}
+.aboutimg
+{
+	text-align:center;
+}
+.bikemodelback
+{
+	text-align:center;
+}
