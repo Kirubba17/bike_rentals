@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>Bike City</title>
+		<link rel="icon" href="https://cdn.dribbble.com/users/5874170/screenshots/14011867/media/f381a6e3fdf1d5fb82b72a9ae5f15ec1.jpg">
+		<link rel="stylesheet" href="Bikecity.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</head>
+	<body style="background-image: linear-gradient( 180.3deg,  rgba(214,224,255,1) 37.2%, rgba(254,168,168,1) 137.3% );">
+		<br>
+		<br><br><br>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" style="text-align:center;">
+			<a href="index.html" style="text-decoration-line:none;"><h1 style="color:#e63946"><b>BIKE CITY</b></h1></a>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
+		
+		
+		
+		<div class="container" style="text-align:center">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"></div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 signupborder" style="background-color:white">
+				<form name="formsignup" action="index.Html" onsubmit="return validateform()">
+					<h1 style="text-align:center"><b>Create your account</b></h1><br>
+					<input type="text" placeholder="Name" name="name" class="signupinput"><br><br>
+					<input type="mail" placeholder="Email" name="email" class="signupinput"><br><br>
+					<input type="password" placeholder="password" name="password" class="signupinput"><br><br>
+					<input type="password" placeholder="Re-enter your password" name="reenterpassword" class="signupinput"><br><br>
+					<button type="submit" class="btn btn-large btn-primary signupbutton" style="border-radius:10px;">Sign in</button><br><br>
+				</form>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"></div>
+
+		</div>
+		
+		
+		<script>			
+			function validateform()
+			{
+				const name=document.formsignup.name.value;
+				const email=document.formsignup.email.value;
+				const password=document.formsignup.password.value;
+				const reenterpassword=document.formsignup.reenterpassword.value;
+				if(name=="")
+				{
+					alert("Name can't be blank");
+					return false;
+				}
+				else if(!(email.match(/^([a-zA-Z0-9]+)@([a-zA-Z]+)([\.])([a-z]{2,5})$/)) || email=="")
+				{
+					alert("Email is Incorrect!!");
+					return false;
+				}
+				else if(password.length<6)
+				{
+					alert("Password must be atleast 6 character long")
+					return false;
+				}
+				else if(password!=reenterpassword)
+				{
+					alert("Password must be same")
+					return false;
+				}
+				else
+				{
+					alert("Welcome!!! You have Sign-Up Successfully!!!")
+				}
+			}
+			
+			
+			
+			
+			
+			
+			
+		</script>
+	</body>
+</html>
+
+
+
